@@ -1,0 +1,17 @@
+.imagem {
+  width: 55vw;
+  height: auto;
+  align-items: center;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.thiaguin {
+  justify-content: center;
+  margin-top: 8%;
+  margin-left: 0%;
+}
+
+.joaozin {
+  justify-content: left;
+}

@@ -1,0 +1,77 @@
+.main {
+    width: auto;
+    height: 100vh;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.container {
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    grid-template-areas:
+        'content content content'
+        'footer footer footer';
+}
+
+.container div {
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    height: 100vh;
+    align-items: center;
+}
+
+.content {
+    grid-area: content;
+    height: 100vh;
+    width: 100vh;
+}
+
+.tabela-chamada, td, tr {
+    border: 1px solid black;
+    border-radius: 3px;
+    font-size: large;
+}
+
+.titulo-chamada {
+    margin-top: 10px;
+}
+
+.tabela-linha {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.tabela-chamada-titulo {
+    text-align: center;
+}
+
+.tabela-chamada-id {
+    text-align: center;
+    color: black;
+    padding: 0px 5px 0px 5px;
+}
+
+.tabela-chamada-nome {
+    text-align: left;
+    padding: 0px 40px 0px 2px;
+}
+
+.tabela-chamada-presenca {
+    text-align: center;
+
+}
+
+.tabela-chamada-presenca button {
+    text-decoration: none;
+    color: black;
+}
+
+.enviar {
+    margin-top: 15px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\alunos.css">
+    <link rel="stylesheet" href="assets\css\cabecalho.css">
+    <title>Imel - Menu</title>
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <header class="header">
+        <nav class="navbar">
+            <a href="menu.html" class="logo">Imel</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="alunos.html" class="nav-link">Alunos</a></li>
+                <li class="nav-item"><a href="chamada.html" class="nav-link">Chamada</a></li>
+                <li class="nav-item"><a href="usuarios.html" class="nav-link">Usuários</a></li>
+                <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="config.html" class="nav-link">Configurações</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link"
+                        onclick='window.alert("Volte Sempre!")'>Sair</a></li>
+            </ul>
+            <div class="ham">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+
+    </header>
+    <!--Nav Bar-->
+
+    <!--Conteudo-->
+    <main class="main">
+        <div class="container">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastrar Novo Aluno</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="alunos.html">Voltar</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome:</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o Nome do Aluno"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome:</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o Sobrenome do Aluno"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="birthday">Data de Nascimento:</label>
+                        <input id="birthday" type="date" name="birthday" placeholder="xx / xx / xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cpf">CPF:</label>
+                        <input id="cpf" type="text" name="cpf" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="rg">RG:</label>
+                        <input id="rg" type="text" name="rg" placeholder="xx.xxx.xxx-x" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="parentname">Nome do Responsável:</label>
+                        <input id="parentname" type="text" name="parentname" placeholder="Digite o Nome do Responsável"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="parentcpf">CPF do Responsável:</label>
+                        <input id="parentcpf" type="text" name="parentcpf" placeholder="xxx.xxx.xxx-xx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="parentnumber">Número do Responsável:</label>
+                        <input id="parentnumber" type="tel" name="parentnumber" placeholder="(xx) x xxxx-xxxx" required>
+                    </div>
+
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h5>Sexo</h5>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Feminino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--Conteudo-->
+
+    <footer class="footer">
+        <p>Instituto Meninos do Lago © 2023</p>
+    </footer>
+
+    <script src="assets\js\alunos.js"></script>
+</body>
+
+</html>

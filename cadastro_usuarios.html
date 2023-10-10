@@ -89,7 +89,8 @@
 
                             <div class="input-field">
                                 <label>Número de Telefone</label>
-                                <input type="number" id="user-phone" placeholder="Insira seu número de telefone" required>
+                                <input type="number" id="user-phone" placeholder="Insira seu número de telefone"
+                                    required>
                             </div>
 
                         </div>
@@ -120,7 +121,8 @@
 
                             <div class="input-field">
                                 <label>Data de Admissão</label>
-                                <input type="date" id="user-admission" placeholder="Insira sua data de admissão" required>
+                                <input type="date" id="user-admission" placeholder="Insira sua data de admissão"
+                                    required>
                             </div>
 
                             <div class="input-field">
@@ -138,13 +140,13 @@
                                 <input type="password" id="confirm-password" placeholder="Confirme sua senha" required>
                             </div>
 
-                            <button class="nextBtn">
+                            <button class="nextBtn" href="#">
                                 <span class="btnText">Próximo</span>
                             </button>
 
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="form second">
@@ -164,7 +166,8 @@
 
                             <div class="input-field">
                                 <label>Número</label>
-                                <input type="number" id="address-number" placeholder="Insira o número do endereço" required>
+                                <input type="number" id="address-number" placeholder="Insira o número do endereço"
+                                    required>
                             </div>
 
                             <div class="input-field">
@@ -218,7 +221,8 @@
 
                             <div class="input-field">
                                 <label>Renda Familiar Mensal</label>
-                                <input type="number" id="user-money" placeholder="Insira sua renda familiar mensal" required>
+                                <input type="number" id="user-money" placeholder="Insira sua renda familiar mensal"
+                                    required>
                             </div>
 
                             <div class="input-field">
@@ -233,14 +237,15 @@
 
                             <div class="input-field">
                                 <label>Número do Contato de Emergência</label>
-                                <input type="number" id="emergency-phone" placeholder="Insira o número do contato" required>
+                                <input type="number" id="emergency-phone" placeholder="Insira o número do contato"
+                                    required>
                             </div>
 
                             <button class="backBtn">
                                 <span class="btnText">Voltar</span>
                             </button>
 
-                            <button class="nextBtn" onclick="myFunction()" type="RESET">
+                            <button class="nextBtn" id="send-btn" type="RESET">
                                 <span class="btnText">Enviar</span>
                             </button>
 
@@ -249,9 +254,27 @@
                 </div>
             </form>
         </div>
+
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2>Aviso</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Análise de Formulário:</p>
+                    <p>Confirmado com sucesso!</p>
+                </div>
+                <div class="modal-footer">
+                    <h3>Instituto Meninos do Lago © 2023</h3>
+                </div>
+            </div>
+
     </main>
     <!--Conteudo-->
-    
+
     <button class="auto-fill" onClick="autoFill(); return true;">Auto-Preencher</button>
 
     <footer class="footer">

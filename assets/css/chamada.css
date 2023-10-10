@@ -1,14 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 .main {
-    width: auto;
-    height: 100vh;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     padding: 15px;
-    display: flex;
+    display: flexbox;
     gap: 10px;
     grid-template-areas:
         'content content content'
@@ -36,15 +45,19 @@
     border: 1px solid black;
     border-radius: 3px;
     font-size: large;
+    width: 80%;
 }
 
 .titulo-chamada {
     margin-top: 10px;
+    display: flex;
 }
 
 .tabela-linha {
     margin-top: 15px;
     margin-bottom: 25px;
+    width: 80%;
+    color: black;
 }
 
 .tabela-chamada-titulo {
@@ -55,6 +68,8 @@
     text-align: center;
     color: black;
     padding: 0px 5px 0px 5px;
+    width: 20%;
+    height: 20px;
 }
 
 .tabela-chamada-nome {

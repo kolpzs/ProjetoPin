@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\cadastrar_usuarios.css">
+    <link rel="stylesheet" href="assets\css\cabecalho.css">
+    <title>Imel - Cadastro Usuário</title>
+</head>
+
+<body>
+
+    <!--Nav Bar-->
+    <header class="header">
+        <nav class="navbar">
+            <a href="menu.html" class="logo">Imel</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="alunos.html" class="nav-link">Alunos</a></li>
+                <li class="nav-item"><a href="chamada.html" class="nav-link">Chamada</a></li>
+                <li class="nav-item"><a href="usuarios.html" class="nav-link">Usuários</a></li>
+                <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
+                <li class="nav-item"><a href="config.html" class="nav-link">Configurações</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link" onclick='window.alert("Volte Sempre!")'>Sair</a></li>
+            </ul>
+            <div class="ham">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+        </nav>
+
+    </header>
+    <!--Nav Bar-->
+
+    <!--Conteudo-->
+    <main class="main">
+        <div class="container">
+            <header>Registro</header>
+            <form action="#">
+                <div class="form first">
+                    <div class="details personal">
+                        <span class="title">Detalhes Pessoais</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>Nome</label>
+                                <input type="text" placeholder="Insira seu nome" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Sobrenome</label>
+                                <input type="text" placeholder="Insira seu sobreome" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Data de Nascimento</label>
+                                <input type="date" placeholder="Insira sua data de nascimento" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Sexo</label>
+                                <div class="select-box">
+                                    <select>
+                                        <option class="no-select">...</option>
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                        <option>Outro</option>
+                                        <option>Prefiro não dizer</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="input-field">
+                                <label>E-mail</label>
+                                <input type="email" placeholder="Insira seu e-mail" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Número de Telefone</label>
+                                <input type="number" placeholder="Insira seu número de telefone" required>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="details ID">
+                        <span class="title">Detalhes de Identificação</span>
+
+                        <div class="fields">
+
+                            <div class="input-field">
+                                <label>Função</label>
+                                <input type="text" placeholder="Insira seu Perfil" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Perfil</label>
+                                <div class="select-box">
+                                    <select>
+                                        <option class="no-select">...</option>
+                                        <option>Admin</option>
+                                        <option>Gestor</option>
+                                        <option>Professor</option>
+                                        <option>Auxiliar</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Data de Admissão</label>
+                                <input type="date" placeholder="Insira sua data de admissão" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>ID do Usuário</label>
+                                <input type="number" placeholder="Insira seu ID de Usuário" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Senha</label>
+                                <input type="password" placeholder="Insira sua senha" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Confirmar Senha</label>
+                                <input type="password" placeholder="Confirme sua senha" required>
+                            </div>
+
+                            <button class="nextBtn">
+                                <span class="btnText">Próximo</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form second">
+                    <div class="details address">
+                        <span class="title">Detalhes de Endereço</span>
+
+                        <div class="fields">
+                            <div class="input-field">
+                                <label>CEP</label>
+                                <input type="number" placeholder="Insira seu CEP" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Endereço</label>
+                                <input type="text" placeholder="Insira seu endereço" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Número</label>
+                                <input type="number" placeholder="Insira o número do endereço" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Complemento</label>
+                                <input type="text" placeholder="(Opcional)" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Bairro</label>
+                                <input type="text" placeholder="Insira seu bairro" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Cidade</label>
+                                <div class="select-box">
+                                    <select>
+                                        <option class="no-select">...</option>
+                                        <option>Foz do Iguaçu</option>
+                                        <option>Santa Teresinha de Itaipu</option>
+                                        <option>São Miguel</option>
+                                        <option>Medianeira</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="details family">
+                        <span class="title">Outros Detalhes</span>
+
+                        <div class="fields">
+
+                            <div class="input-field">
+                                <label>Estado Civil</label>
+                                <input type="text" placeholder="Insira seu estado civil" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Possui Filhos?</label>
+                                <input type="text" placeholder="Insira a quantidade" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Renda Familiar Mensal</label>
+                                <input type="number" placeholder="Insira sua renda familiar mensal" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Possui Restrições Médicas? Se sim, quais?</label>
+                                <input type="text" placeholder="(Opcional)">
+                            </div>
+
+                            <div class="input-field">
+                                <label>Nome do Contato de Emergência</label>
+                                <input type="text" placeholder="Insira o nome do contato" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label>Número do Contato de Emergência</label>
+                                <input type="number" placeholder="Insira o número do contato" required>
+                            </div>
+
+                            <button class="backBtn">
+                                <span class="btnText">Back</span>
+                            </button>
+
+                            <button class="nextBtn">
+                                <span class="btnText">Enviar</span>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <!--Conteudo-->
+
+    <footer class="footer">
+        <p>Instituto Meninos do Lago © 2023</p>
+    </footer>
+
+    <script src="assets\js\cadastro_usuarios.js"></script>
+</body>
+
+</html>

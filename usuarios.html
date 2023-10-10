@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets\css\cadastrar_alunos.css">
+    <link rel="stylesheet" href="assets\css\usuarios.css">
     <link rel="stylesheet" href="assets\css\cabecalho.css">
-    <title>Imel - Cadastro Alunos</title>
+    <title>Imel - Usuários</title>
 </head>
 
 <body>
@@ -21,7 +21,8 @@
                 <li class="nav-item"><a href="usuarios.html" class="nav-link">Usuários</a></li>
                 <li class="nav-item"><a href="eventos.html" class="nav-link">Eventos</a></li>
                 <li class="nav-item"><a href="config.html" class="nav-link">Configurações</a></li>
-                <li class="nav-item"><a href="login.html" class="nav-link" onclick='window.alert("Volte Sempre!")'>Sair</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link"
+                        onclick='window.alert("Volte Sempre!")'>Sair</a></li>
             </ul>
             <div class="ham">
                 <span class="bar"></span>
@@ -36,22 +37,14 @@
 
     <!--Conteudo-->
     <main class="main">
-        <div class="box">
-            <form action="">
-                <fieldset>
-                    <legend><b>Cadastro de Aluno</b></legend>
-                    <br>
-                    <div class="inputbox">
-                        <input type="text" name="nome" id="nome" class="inputUser" required>
-                        <label for="nome">Nome Completo do Aluno</label>
-                    </div>
-                    <div class="inputbox">
-                        <input type="email" name="email" id="email" class="inputUser" required>
-                        <label for="email">E-mail do Aluno</label>
-                    </div>
-                </fieldset>
-            </form>
+        <div class="sidebar">
+            <ul>
+                <li><a href="cadastro_usuarios.html">Cadastrar</a></li>
+                <li><a href="editar_usuarios.html">Editar</a></li>
+            </ul>
+            
         </div>
+        
     </main>
     <!--Conteudo-->
 
@@ -59,7 +52,7 @@
         <p>Instituto Meninos do Lago © 2023</p>
     </footer>
 
-    <script src="assets\js\alunos.js"></script>
+    <script src="assets\js\menu.js"></script>
 </body>
 
 </html>

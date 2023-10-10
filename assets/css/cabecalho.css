@@ -44,9 +44,12 @@
     box-shadow: 0 2px 2px black;
     display: none;
     text-align: center;
-    max-width: 200px;
+    max-width: 250px;
     padding: 10px;
     font-weight: 300;
+    z-index: 1000;
+    justify-content: space-around;
+    
 }
 
 .dropdown-option {
@@ -55,12 +58,17 @@
 
 .dropdown-menu a{
     display: block;
-    color: #dddddd;
+    color: #e0dfdf;
+    padding: 2px;
 }
 
 .dropdown-option:hover {
     color: white;
+    background-color: #03caac;
+    border-bottom: 0.5px solid white;
+    border-radius: 8px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .nav-link {
@@ -71,12 +79,11 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
 }
 
 .nav-link:hover {
     color: black;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 .logo:hover {
@@ -139,10 +146,11 @@
 }
 
 .footer {
-    margin-top: 30px;
     padding: 15px;
-    background-color: gray;
-    color: white;
+    background-color: #B5C206;
+    color: black;
     grid-area: footer;
     text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
 }

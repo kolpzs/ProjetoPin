@@ -54,9 +54,16 @@
 }
 
 .slide-link {
+    color: black;
+    border-width: 1px;
+    text-decoration: none;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.slide-link-text {
 
     color: black;
-    border-style: hidden hidden solid hidden;
     border-width: 1px;
     text-decoration: none;
     font-weight: bold;
@@ -74,7 +81,7 @@
     padding: 5px;
     border-radius: 12px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .manual-btn:not(:last-child) {
@@ -102,7 +109,7 @@
     padding: 5px;
     border-radius: 12px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .navigation-auto {

@@ -1,5 +1,6 @@
 .header {
     position: static;
+    display: inline-block;
     width: 100%;
     background-color: #FFC401;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
@@ -36,13 +37,46 @@
     gap: 60px;
 }
 
+.dropdown-menu{
+    position: absolute;
+    margin-left: -35px;
+    background-color: #00A78D;
+    box-shadow: 0 2px 2px black;
+    display: none;
+    text-align: center;
+    max-width: 200px;
+    padding: 10px;
+    font-weight: 300;
+}
+
+.dropdown-option {
+    transition: 0.5s ease;
+}
+
+.dropdown-menu a{
+    display: block;
+    color: #dddddd;
+}
+
+.dropdown-option:hover {
+    color: white;
+    font-weight: bold;
+}
+
 .nav-link {
     transition: 0.5s ease;
 }
 
+.nav-item:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
 .nav-link:hover {
     color: black;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 .logo:hover {

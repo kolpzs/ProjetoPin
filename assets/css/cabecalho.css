@@ -39,7 +39,7 @@
 
 .dropdown-menu{
     position: absolute;
-    margin-left: -35px;
+    align-items: center;
     background-color: #00A78D;
     box-shadow: 0 2px 2px black;
     display: none;
@@ -59,14 +59,13 @@
 .dropdown-menu a{
     display: block;
     color: #e0dfdf;
-    padding: 2px;
 }
 
 .dropdown-option:hover {
     color: white;
-    background-color: #03caac;
     border-bottom: 0.5px solid white;
-    border-radius: 8px;
+    padding: 5px 0;
+    border-radius: 6px;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -83,7 +82,7 @@
 
 .nav-link:hover {
     color: black;
-    padding: 0 10px;
+    letter-spacing: 1.5px;
 }
 
 .logo:hover {
@@ -129,7 +128,7 @@
         gap: 0;
         z-index: 1000;
         border-radius: 0 0 25px 25px;
-        background-color: #00A78D;
+        background-color: #05B13B;
         text-align: center;
         flex-direction: column;
         width: 100%;

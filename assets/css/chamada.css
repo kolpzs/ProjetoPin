@@ -104,7 +104,7 @@ tfoot tr:nth-child(odd) {
 
 body {
   background-image: url(assets/css/planodefundo.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 table {

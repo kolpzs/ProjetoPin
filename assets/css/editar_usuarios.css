@@ -11,8 +11,6 @@
     padding: 0;
     width: 100%;
     display: flex;
-
-    margin-bottom: 150px;
 }   
 
 .container {
@@ -22,6 +20,8 @@
     align-items: center;
 
     flex-direction: column;
+    
+    margin-bottom: 10%;
 }
 
 /* ---------- TABLE ---------- */
@@ -71,11 +71,6 @@ table {
     font-weight: bolder;
     color: white;
     text-decoration: none;
-}
-
-.dropdown .falta {
-    background-color: red;
-    overflow: visible;
 }
 
  

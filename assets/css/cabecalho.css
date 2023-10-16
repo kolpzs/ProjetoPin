@@ -155,4 +155,5 @@
     grid-area: footer;
     font-weight: 600;
     letter-spacing: 2px;
+    position: static;
 }

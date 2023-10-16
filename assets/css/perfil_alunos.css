@@ -1,6 +1,7 @@
 body {
 	background-color: #fff;
 	font-family: 'Oswald', sans-serif;
+	background-repeat: no-repeat;
 }
 
 p {
@@ -19,7 +20,7 @@ h2 {
 	color: #474747;
 }
 
-.detalhes > h2 {
+.detalhes>h2 {
 	margin: 10px;
 }
 
@@ -29,8 +30,8 @@ h2 {
 	background-color: #f1f1f1;
 	text-align: center;
 	color: #7B7B7B;
-  height: 1000px;
-  width: 1000px;
+	height: 1000px;
+	width: 1000px;
 }
 
 .sobre {
@@ -51,89 +52,84 @@ img {
 }
 
 img:hover {
-	filter: grayscale(0);	
+	filter: grayscale(0);
 	cursor: pointer;
 	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
-img.miltin  {
-	border-radius: 15%;	
+img.miltin {
+	border-radius: 15%;
 	width: 250px;
 }
 
-img.miltin:hover  {
-	border-radius: 50%;	
+img.miltin:hover {
+	border-radius: 50%;
 }
 
 .ico {
 	width: 32px;
-	border-radius: 50%;	
+	border-radius: 50%;
 }
 
 .redes {
 	margin-top: 15px;
 }
 
-.redes > img {
+.redes>img {
 	padding-left: 10px;
 }
+
 body {
-  background-color: rgb(255, 255, 255); 
+	background-color: rgb(255, 255, 255);
 }
-		
+
 img {
-  width:200px;
-  border-radius: 10%;
+	width: 200px;
+	border-radius: 10%;
 }
 
 img.avatar {
-  width:200px;
-  border-radius: 10%;
-  filter: grayscale(1);
-  transition: 0.5s;
+	width: 200px;
+	border-radius: 10%;
+	filter: grayscale(1);
+	transition: 0.5s;
 }
 
 img.ico {
-  width:20px;			
-  filter: grayscale(1);
-  transition: 0.5s;
-  
+	width: 20px;
+	filter: grayscale(1);
+	transition: 0.5s;
+
 }
 
-img:hover {				
-  filter: grayscale(0);
-  cursor: pointer;
-  border-radius: 50%;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+img:hover {
+	filter: grayscale(0);
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 table {
-  width: 500px;
-  height: 200px;
-  margin: 0 auto;
+	width: 500px;
+	height: 200px;
+	margin: 0 auto;
 
-  border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 table thead tr {
-  background-color: #ccc;
+	background-color: #ccc;
 }
 
 table tbody tr:nth-child(even) {
-  background-color: #ffffff;
+	background-color: #ffffff;
 }
 
-
-
-
-
 .next-button {
-    background-color: #337ab7;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-  }
-
-
+	background-color: #337ab7;
+	color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 3px;
+	cursor: pointer;
+}

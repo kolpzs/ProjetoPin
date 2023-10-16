@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets\css\cabecalho.css">
     <link rel="stylesheet" href="assets\css\menu.css">
+    <link rel="stylesheet" href="assets\css\config.css">
 
     <title>Imel - Menu</title>
 </head>
@@ -17,11 +18,19 @@
         <nav class="navbar">
             <a href="menu.html" class="logo">Imel</a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="alunos.html" class="nav-link">Alunos</a></li>
+
+                <li class="nav-item">
+                    <a class="nav-link">Alunos</a>
+                    <div class="dropdown-menu">
+                        <a href="procurar_aluno.html" class="dropdown-option">Procurar Alunos</a>
+                        <a href="cadastrar_aluno.html" class="dropdown-option">Cadastrar Aluno</a>
+                    </div>
+                </li>
+
                 <li class="nav-item"><a href="chamada.html" class="nav-link">Chamada</a></li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Usuários</a>
+                    <a class="nav-link">Usuários</a>
                     <div class="dropdown-menu">
                         <a href="#" class="dropdown-option">Usuários Ativos</a>
                         <a href="cadastro_usuarios.html" class="dropdown-option">Cadastrar Usuário</a>
@@ -42,6 +51,7 @@
 
     </header>
     <!--Nav Bar-->
+
 
     <!--Conteudo-->
     <main class="main">

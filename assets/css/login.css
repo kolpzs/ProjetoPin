@@ -26,10 +26,10 @@ html {
 
 /* Position text in the middle of the page/image */
 .bg-text {
-    
+
     position: absolute;
     width: 400px;
-    height: 45%;
+    height: 30%;
     top: 50%;
     left: 50%;
     z-index: 2;
@@ -37,25 +37,26 @@ html {
     transform: translate(-50%, -50%);
     text-align: center;
     background: rgba(0, 167, 141, 0.70);
-    -webkit-box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
--moz-box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
-box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 12px 25px 42px 14px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 12px 25px 42px 14px rgba(0, 0, 0, 0.36);
+    box-shadow: 12px 25px 42px 14px rgba(0, 0, 0, 0.36);
     border-radius: 10px;
     padding: 40px;
 }
 
-.login h2{
+.login h2 {
     margin-bottom: 30px;
     font-size: 30px;
     color: #fff;
     text-align: center;
 }
-.login .box-user{
+
+.login .box-user {
     margin-top: 20px;
     position: relative;
 }
 
-.login .box-user input{
+.login .box-user input {
     width: 100%;
     padding: 10px 0;
     outline: none;
@@ -67,7 +68,7 @@ box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
     margin-bottom: 30px;
 }
 
-.login .box-user label{
+.login .box-user label {
     position: absolute;
     top: 0;
     left: 0;
@@ -79,15 +80,14 @@ box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
 }
 
 .login .box-user input:focus~label,
-.login .box-user input:valid~label
-{
+.login .box-user input:valid~label {
     top: -20px;
     left: 0;
     color: white;
     font-size: 12px;
 }
 
-.forget{
+.forget {
     font-size: 12px;
     color: white;
     float: right;
@@ -95,8 +95,11 @@ box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
     position: relative;
 }
 
+.forget:hover {
+    text-decoration: underline;
+}
 
-.btn{
+.btn {
     position: relative;
     display: flexbox;
     padding: 12px 20px;
@@ -109,18 +112,20 @@ box-shadow: 12px 25px 42px 14px rgba(0,0,0,0.36);
     transition: .5s;
     overflow: hidden;
 }
-.btn:hover{
+
+.btn:hover {
     background: #FFC401;
     border-radius: 5px;
     color: #172031;
 }
-.btn span{
+
+.btn span {
     position: relative;
     display: flexbox;
 }
 
-@media (max-width: 405px){
-    .login{
+@media (max-width: 405px) {
+    .login {
         width: 90%;
     }
 }
